@@ -1,7 +1,7 @@
 import { createContext, useContext, useReducer } from "react";
 import { useState, useEffect } from "react";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://mocki.io/v1/33e20ac4-db4b-49d0-9f4f-7f9417fa1816";
 
 const CitiesContext = createContext();
 const initialState = {
